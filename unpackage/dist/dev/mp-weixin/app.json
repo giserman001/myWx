@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/common/wode",
+    "pages/common/huiyuan",
+    "pages/common/shouye",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#F5F5F5",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#FA8806",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/common/huiyuan",
+        "text": "首页",
+        "iconPath": "static/foot/n1.png",
+        "selectedIconPath": "static/foot/a1.png"
+      },
+      {
+        "pagePath": "pages/common/shouye",
+        "text": "会员",
+        "iconPath": "static/foot/n2.png",
+        "selectedIconPath": "static/foot/a2.png"
+      },
+      {
+        "pagePath": "pages/common/wode",
+        "text": "我的",
+        "iconPath": "static/foot/n4.png",
+        "selectedIconPath": "static/foot/a4.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap80.json"
+}
