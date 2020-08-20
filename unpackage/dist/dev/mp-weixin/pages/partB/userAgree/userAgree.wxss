@@ -1,0 +1,12 @@
+.userAgree {
+  min-height: 100vh;
+  background: #fff;
+  padding: 50rpx 40rpx;
+}
+.effectTime {
+  margin-top: 20rpx;
+}
+.containter {
+  margin-top: 40rpx;
+}
+

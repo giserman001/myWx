@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "关于我们",
+  "navigationBarBackgroundColor": "#F5F5F5",
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image"
+  }
+}

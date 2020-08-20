@@ -25,4 +25,7 @@
 .optionWrapper.data-v-6fe3a094 {
   margin-top: 15rpx;
 }
+.btnQuit.data-v-6fe3a094 {
+  margin-top: 40rpx;
+}
 

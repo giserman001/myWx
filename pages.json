@@ -23,8 +23,36 @@
 		{
 			"path": "pages/index/index",
 			"style": {}
-		}
-	],
+		},
+		{
+            "path" : "pages/partB/feedback/feedback",
+            "style" : {
+				"navigationBarTitleText": "信息反馈",
+				"navigationBarBackgroundColor": "#F5F5F5"
+			}
+        }
+        ,{
+            "path" : "pages/partB/aboutMe/aboutMe",
+            "style" : {
+				"navigationBarTitleText": "关于我们",
+				"navigationBarBackgroundColor": "#F5F5F5"
+			}
+        }
+        ,{
+            "path" : "pages/partB/userAgree/userAgree",
+            "style" : {
+				"navigationBarTitleText": "用户协议",
+				"navigationBarBackgroundColor": "#F5F5F5"
+			}
+        }
+        ,{
+            "path" : "pages/partB/privacyPolicy/privacyPolicy",
+            "style" : {
+				"navigationBarTitleText": "隐私政策",
+				"navigationBarBackgroundColor": "#F5F5F5"
+			}
+        }
+    ],
 	"subPackages": [
 
 	],

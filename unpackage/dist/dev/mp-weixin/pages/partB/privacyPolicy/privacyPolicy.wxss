@@ -1,0 +1,8 @@
+.privacyPolicy {
+  font-size: 16px;
+  color: #000;
+  padding: 50rpx 40rpx;
+  min-height: 100vh;
+  background: #fff;
+}
+

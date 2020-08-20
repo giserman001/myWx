@@ -3,7 +3,11 @@
     "pages/common/wode",
     "pages/common/huiyuan",
     "pages/common/shouye",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/partB/feedback/feedback",
+    "pages/partB/aboutMe/aboutMe",
+    "pages/partB/userAgree/userAgree",
+    "pages/partB/privacyPolicy/privacyPolicy"
   ],
   "subPackages": [],
   "window": {
@@ -37,6 +41,5 @@
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap80.json"
+  "usingComponents": {}
 }

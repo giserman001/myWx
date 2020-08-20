@@ -1,0 +1,21 @@
+.feedBack {
+  padding: 10rpx 20rpx;
+}
+.feedBack .textarea {
+  position: relative;
+}
+.feedBack .textarea .u-input--border {
+  background-color: #fff;
+  border: none;
+}
+.feedBack .num {
+  color: #828282;
+  font-size: 12px;
+  position: absolute;
+  bottom: 10rpx;
+  right: 10rpx;
+}
+.feedBack .num .backslash {
+  margin: 0 5rpx;
+}
+
