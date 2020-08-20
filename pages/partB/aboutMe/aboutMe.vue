@@ -18,13 +18,13 @@
 	export default {
 		data() {
 			return {
-				src: 'https://cdn.uviewui.com/uview/example/fade.jpg'
+				src: '../../../static/images/logo-about.png'
 			};
 		}
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 	.aboutMe {
 		min-height: 100vh;
 		background-color: #fff;
@@ -32,7 +32,7 @@
 	}
 
 	.imgWrapper {
-		.u-image {
+		/deep/.u-image {
 			margin: 0 auto;
 		}
 

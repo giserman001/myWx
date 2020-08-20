@@ -6,6 +6,14 @@
 	},
 	"pages": [
 		{
+		    "path" : "pages/common/login/login",
+		    "style" : {
+				// "navigationStyle": "custom",
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#F5F5F5"
+			}
+		},
+		{
 			"path": "pages/common/wode",
 			"style": {
 				"navigationBarTitleText": "我的",
@@ -51,6 +59,10 @@
 				"navigationBarTitleText": "隐私政策",
 				"navigationBarBackgroundColor": "#F5F5F5"
 			}
+        }
+        ,{
+            "path" : "pages/partB/phoneLogin/phoneLogin",
+            "style" : {}
         }
     ],
 	"subPackages": [
