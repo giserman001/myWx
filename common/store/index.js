@@ -11,7 +11,7 @@ try {
 }
 
 // 需要永久存储，且下次APP启动需要取出的，在state中的变量名
-let saveStateKeys = ['global', 'taber', 'uid', 'style', 'token'];
+let saveStateKeys = ['global','token'];
 //加载计时器
 let clearTime;
 // 保存变量到本地存储中
@@ -31,11 +31,7 @@ const saveLifeData = function(key, value) {
 const store = new Vuex.Store({
 	state: {
 		global: lifeData.global ? lifeData.global : {mainLog: true,open: true},
-		style: lifeData.style ? lifeData.style : {active: 'red',middle: 'blue',niActive: 'gray'},
-		taber: lifeData.taber ? lifeData.taber :[],
-		uid: lifeData.uid ? lifeData.uid :'',
 		token: lifeData.token ? lifeData.token :'',
-		myModel:{},
 		loadingShow: false,
 	},
 	mutations: {

@@ -18,7 +18,7 @@
 	export default {
 		data() {
 			return {
-				src: '../../../static/images/logo-about.png'
+				src: 'https://cdn.uviewui.com/uview/example/fade.jpg'
 			};
 		}
 	}
@@ -32,7 +32,7 @@
 	}
 
 	.imgWrapper {
-		/deep/.u-image {
+		/deep/ .u-image {
 			margin: 0 auto;
 		}
 

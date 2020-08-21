@@ -1,0 +1,28 @@
+.login.data-v-0678953a {
+  min-height: 100vh;
+  background-color: #fff;
+  padding: 60rpx 40rpx 0;
+}
+.imgWrapper.data-v-0678953a .u-image {
+  margin: 0 auto;
+}
+.imgWrapper .tit.data-v-0678953a {
+  margin-top: 40rpx;
+  letter-spacing: 14rpx;
+  text-indent: 14rpx;
+  text-align: center;
+  color: #32323C;
+}
+.imgWrapper .subtit.data-v-0678953a {
+  text-align: center;
+  color: #32323C;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+}
+.btnWrappper .phoneLogin.data-v-0678953a {
+  text-align: center;
+  color: #A5A5A5;
+  font-size: 26rpx;
+  margin-top: 20rpx;
+}
+

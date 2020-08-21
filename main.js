@@ -13,6 +13,8 @@ import store from './common/store';
 let vuexStore = require('./common/store/$u.mixin.js');
 Vue.mixin(vuexStore);
 
+import publicModule from '@/components/public-module.vue';
+Vue.component('publicModule', publicModule);
 
 const app = new Vue({
     ...App,

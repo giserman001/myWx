@@ -35,7 +35,7 @@
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 	.feedBack{
 		padding: 10rpx 20rpx;
 		.textarea{

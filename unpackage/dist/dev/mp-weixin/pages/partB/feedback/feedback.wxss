@@ -1,0 +1,21 @@
+.feedBack.data-v-6baa3cf4 {
+  padding: 10rpx 20rpx;
+}
+.feedBack .textarea.data-v-6baa3cf4 {
+  position: relative;
+}
+.feedBack .textarea .u-input--border.data-v-6baa3cf4 {
+  background-color: #fff;
+  border: none;
+}
+.feedBack .num.data-v-6baa3cf4 {
+  color: #828282;
+  font-size: 12px;
+  position: absolute;
+  bottom: 10rpx;
+  right: 10rpx;
+}
+.feedBack .num .backslash.data-v-6baa3cf4 {
+  margin: 0 5rpx;
+}
+

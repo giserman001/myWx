@@ -1,0 +1,39 @@
+.login.data-v-18ec7474 {
+  min-height: 100vh;
+  background-color: #fff;
+  padding: 60rpx 40rpx 0;
+}
+.imgWrapper.data-v-18ec7474 .u-image {
+  margin: 0 auto;
+}
+.imgWrapper .tit.data-v-18ec7474 {
+  margin-top: 40rpx;
+  letter-spacing: 14rpx;
+  text-indent: 14rpx;
+  text-align: center;
+  color: #32323C;
+}
+.imgWrapper .subtit.data-v-18ec7474 {
+  text-align: center;
+  color: #32323C;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+}
+.formBox.data-v-18ec7474 {
+  margin-top: 80rpx;
+}
+.footer.data-v-18ec7474 {
+  text-align: center;
+  color: #A8A8A8;
+  font-size: 24rpx;
+  position: fixed;
+  bottom: 40rpx;
+  left: 50%;
+  width: 100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.footer .sty.data-v-18ec7474 {
+  color: #5F95F2;
+}
+

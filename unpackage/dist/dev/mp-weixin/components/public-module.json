@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-loading": "/components/common/loading"
+  },
+  "component": true
+}

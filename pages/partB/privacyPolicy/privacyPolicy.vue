@@ -25,7 +25,7 @@
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 	.privacyPolicy {
 		font-size: 16px;
 		color: #000;

@@ -5,33 +5,44 @@
 		"^uni-(.*)": "@/components/uni-ui/uni-$1/uni-$1.vue"
 	},
 	"pages": [
+		// {
+		//     "path" : "pages/partA/mainDetail/index",
+		//     "style" : {
+		// 		"navigationBarTitleText": "房产详情",
+		// 		"navigationBarBackgroundColor": "#F5F5F5"
+		// 	}
+		// },
+		// {
+		//     "path" : "pages/partB/login/login",
+		//     "style" : {
+		// 		// "navigationStyle": "custom",
+		// 		"navigationBarTitleText": "登录",
+		// 		"navigationBarBackgroundColor": "#F5F5F5"
+		// 	}
+		// },
 		{
-		    "path" : "pages/common/login/login",
+		    "path" : "pages/partB/index",
 		    "style" : {
-				// "navigationStyle": "custom",
-				"navigationBarTitleText": "登录",
-				"navigationBarBackgroundColor": "#F5F5F5"
-			}
-		},
-		{
-			"path": "pages/common/wode",
-			"style": {
 				"navigationBarTitleText": "我的",
 				"navigationBarBackgroundColor": "#F5F5F5"
 			}
-		},{
-			"path": "pages/common/huiyuan",
-			"style": {}
 		},
 		{
-			"path": "pages/common/shouye",
-			"style": {}
+		    "path" : "pages/partA/index",
+		    "style" : {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#F5F5F5"
+			}
+		},
+		{
+		    "path" : "pages/partC/index",
+		    "style" : {
+				"navigationBarTitleText": "会员",
+				"navigationBarBackgroundColor": "#F5F5F5"
+			}
 		},
 		
-		{
-			"path": "pages/index/index",
-			"style": {}
-		},
+		
 		{
             "path" : "pages/partB/feedback/feedback",
             "style" : {
@@ -59,11 +70,11 @@
 				"navigationBarTitleText": "隐私政策",
 				"navigationBarBackgroundColor": "#F5F5F5"
 			}
-        }
-        ,{
+        },{
             "path" : "pages/partB/phoneLogin/phoneLogin",
             "style" : {}
         }
+		
     ],
 	"subPackages": [
 
@@ -80,24 +91,23 @@
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"list": [{
-				"pagePath": "pages/common/huiyuan",
+				"pagePath": "pages/partA/index",
 				"text": "首页",
-				"iconPath": "static/foot/n1.png",
-				"selectedIconPath": "static/foot/a1.png"
+				"iconPath": "static/foot/hous.png",
+				"selectedIconPath": "static/foot/Ahous.png"
 			},
 
 			{
-				"pagePath": "pages/common/shouye",
+				"pagePath": "pages/partC/index",
 				"text": "会员",
-				"iconPath": "static/foot/n2.png",
-				"selectedIconPath": "static/foot/a2.png"
+				"iconPath": "static/foot/merber.png",
+				"selectedIconPath": "static/foot/Amerber.png"
 			},
-
 			{
-				"pagePath": "pages/common/wode",
+				"pagePath": "pages/partB/index",
 				"text": "我的",
-				"iconPath": "static/foot/n4.png",
-				"selectedIconPath": "static/foot/a4.png"
+				"iconPath": "static/foot/me.png",
+				"selectedIconPath": "static/foot/Ame.png"
 			}
 
 		]

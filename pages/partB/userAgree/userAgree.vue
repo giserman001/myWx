@@ -38,7 +38,7 @@
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 	.userAgree {
 		min-height: 100vh;
 		background: #fff;
