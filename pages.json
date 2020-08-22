@@ -12,70 +12,73 @@
 		// 		"navigationBarBackgroundColor": "#F5F5F5"
 		// 	}
 		// },
-		// {
-		//     "path" : "pages/partB/login/login",
-		//     "style" : {
-		// 		// "navigationStyle": "custom",
-		// 		"navigationBarTitleText": "登录",
-		// 		"navigationBarBackgroundColor": "#F5F5F5"
-		// 	}
-		// },
 		{
-		    "path" : "pages/partB/index",
-		    "style" : {
+			"path": "pages/partB/houseList/houseList",
+			"style": {
+				"navigationBarTitleText": "嗨生活房产",
+				"navigationBarBackgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/partB/login/login",
+			"style": {
+				// "navigationStyle": "custom",
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/partB/index",
+			"style": {
 				"navigationBarTitleText": "我的",
 				"navigationBarBackgroundColor": "#F5F5F5"
 			}
 		},
 		{
-		    "path" : "pages/partA/index",
-		    "style" : {
+			"path": "pages/partA/index",
+			"style": {
 				"navigationBarTitleText": "首页",
 				"navigationBarBackgroundColor": "#F5F5F5"
 			}
 		},
 		{
-		    "path" : "pages/partC/index",
-		    "style" : {
+			"path": "pages/partC/index",
+			"style": {
 				"navigationBarTitleText": "会员",
 				"navigationBarBackgroundColor": "#F5F5F5"
 			}
 		},
-		
-		
+
+
 		{
-            "path" : "pages/partB/feedback/feedback",
-            "style" : {
+			"path": "pages/partB/feedback/feedback",
+			"style": {
 				"navigationBarTitleText": "信息反馈",
 				"navigationBarBackgroundColor": "#F5F5F5"
 			}
-        }
-        ,{
-            "path" : "pages/partB/aboutMe/aboutMe",
-            "style" : {
+		}, {
+			"path": "pages/partB/aboutMe/aboutMe",
+			"style": {
 				"navigationBarTitleText": "关于我们",
 				"navigationBarBackgroundColor": "#F5F5F5"
 			}
-        }
-        ,{
-            "path" : "pages/partB/userAgree/userAgree",
-            "style" : {
+		}, {
+			"path": "pages/partB/userAgree/userAgree",
+			"style": {
 				"navigationBarTitleText": "用户协议",
 				"navigationBarBackgroundColor": "#F5F5F5"
 			}
-        }
-        ,{
-            "path" : "pages/partB/privacyPolicy/privacyPolicy",
-            "style" : {
+		}, {
+			"path": "pages/partB/privacyPolicy/privacyPolicy",
+			"style": {
 				"navigationBarTitleText": "隐私政策",
 				"navigationBarBackgroundColor": "#F5F5F5"
 			}
-        },{
-            "path" : "pages/partB/phoneLogin/phoneLogin",
-            "style" : {}
-        }
-		
-    ],
+		}, {
+			"path": "pages/partB/phoneLogin/phoneLogin",
+			"style": {}
+		}
+	],
 	"subPackages": [
 
 	],
