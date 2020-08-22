@@ -1,8 +1,8 @@
 <template>
 	<view class="serach">
 		<view class="content" :style="{'border-radius':radius+'px'}">
-			<view class="location">
-				上海<u-icon :custom-style="customStyle" size="25" name="arrow-down-fill"></u-icon>
+			<view class="location" @click="Jump()">
+				{{city}}<u-icon :custom-style="customStyle" size="25" name="arrow-down-fill"></u-icon>
 			</view>
 			<!-- HM修改 增加进入输入状态的点击范围 -->
 			<view class="content-box" :class="{'center':mode === 2}">
@@ -47,6 +47,10 @@
 			radius: {
 				value: String,
 				default: 60
+			},
+			city: {
+				value: String,
+				default: '全国'
 			}
 		},
 		data() {
@@ -62,6 +66,12 @@
 			};
 		},
 		methods: {
+			//去城市选择
+			Jump(){
+				this.$u.route({
+					url:'pages/partA/city/index'
+				})
+			},
 			//HM修改 触发组件confirm事件
 			triggerConfirm() {
 				this.$emit('confirm', false);

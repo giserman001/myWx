@@ -1,7 +1,5 @@
 {
   "dependencies": {
-    "js-md5": "^0.7.3",
-    "vant": "^2.10.2",
-    "videojs-contrib-hls": "^5.15.0"
+    "js-md5": "^0.7.3"
   }
 }

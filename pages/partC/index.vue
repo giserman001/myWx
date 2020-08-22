@@ -1,25 +1,21 @@
 <template>
-	<view class="">
-		<publicModule></publicModule>
-		会员
-	</view>
+  <view class>
+    <Main />
+  </view>
 </template>
 
 <script>
-	export default {
-		data() {
-			return {
-				
-			}
-		},
-		methods: {
-			call() {
-				
-			}
-		}
-	}
+import Main from "./Main";
+export default {
+  data() {
+    return {};
+  },
+  components: { Main },
+  methods: {
+    call() {},
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-	
 </style>

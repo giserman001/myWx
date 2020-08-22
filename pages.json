@@ -15,6 +15,7 @@
 		{
 			"path": "pages/partB/houseList/houseList",
 			"style": {
+				"enablePullDownRefresh": true, //下拉刷新
 				"navigationBarTitleText": "嗨生活房产",
 				"navigationBarBackgroundColor": "#F5F5F5"
 			}
@@ -77,7 +78,102 @@
 		}, {
 			"path": "pages/partB/phoneLogin/phoneLogin",
 			"style": {}
+		},
+		
+		{
+			"path": "pages/partA/city/index",
+			"style": {
+				"navigationBarTitleText": "城市选择",
+				"navigationBarBackgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/partA/H5/H5",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#F5F5F5"
+			}
+		},
+		
+		{
+		  "path": "pages/partC/activeValue/index",
+		  "style": {
+		    "navigationBarTitleText": "活跃值",
+		    "navigationBarBackgroundColor": "#F5F5F5"
+		  }
+		},
+		{
+		  "path": "pages/partC/money/index",
+		  "style": {
+		    "navigationBarTitleText": "收益提现",
+		    "navigationBarBackgroundColor": "#F5F5F5"
+		  }
+		},
+		{
+		  "path": "pages/partC/members/index",
+		  "style": {
+		    "navigationBarTitleText": "我的直属会员",
+		    "navigationBarBackgroundColor": "#F5F5F5"
+		  }
+		},
+		{
+		  "path": "pages/partC/upgradeRegiester/index",
+		  "style": {
+		    "navigationBarTitleText": "会员升级",
+		    "navigationBarBackgroundColor": "#F5F5F5"
+		  }
+		},
+		{
+		  "path": "pages/partC/upgradeSuper/index",
+		  "style": {
+		    "navigationBarTitleText": "会员升级",
+		    "navigationBarBackgroundColor": "#F5F5F5"
+		  }
+		},
+		{
+		  "path": "pages/partC/upgradeCompany/index",
+		  "style": {
+		    "navigationBarTitleText": "会员升级",
+		    "navigationBarBackgroundColor": "#F5F5F5"
+		  }
+		},
+		{
+		  "path": "pages/partC/profits/index",
+		  "style": {
+		    "navigationBarTitleText": "我的收益",
+		    "navigationBarBackgroundColor": "#F5F5F5"
+		  }
+		},
+		{
+		  "path": "pages/partC/upgradeGuide/index",
+		  "style": {
+		    "navigationBarTitleText": "成长攻略",
+		    "navigationBarBackgroundColor": "#F5F5F5"
+		  }
+		},
+		
+		{
+		  "path": "pages/partC/addressBook/index",
+		  "style": {
+		    "navigationBarTitleText": "会员通讯录",
+		    "navigationBarBackgroundColor": "#F5F5F5"
+		  }
+		},
+		{
+		  "path": "pages/partC/process/index",
+		  "style": {
+		    "navigationBarTitleText": "收益流程",
+		    "navigationBarBackgroundColor": "#F5F5F5"
+		  }
+		},
+		{
+		  "path": "pages/partC/order/index",
+		  "style": {
+		    "navigationBarTitleText": "我的订单",
+		    "navigationBarBackgroundColor": "#F5F5F5"
+		  }
 		}
+		
 	],
 	"subPackages": [
 
@@ -94,7 +190,7 @@
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"list": [{
-				"pagePath": "pages/partA/index",
+				"pagePath": "pages/partB/houseList/houseList",
 				"text": "首页",
 				"iconPath": "static/foot/hous.png",
 				"selectedIconPath": "static/foot/Ahous.png"

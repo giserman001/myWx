@@ -1,8 +1,6 @@
 import md5 from 'js-md5';
 import store from '../store/index.js';
 import config from '../../config/index.js';
-
-console.log(store);
 export default {
 	post(url, data = {}, fn, loading = true) {
 		loading && store.commit('setLoadingShow', true);

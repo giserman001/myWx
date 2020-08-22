@@ -6,6 +6,7 @@ export default {
 	salt:'menshen_2018',
 	platform:'Applet',
 	version:'1.0.1',
-	uuid:''
+	uuid:'',
+	wxMapKey:'IULBZ-RZFRO-CAOWC-S6MJF-U4AK3-CABSO'
 };
  

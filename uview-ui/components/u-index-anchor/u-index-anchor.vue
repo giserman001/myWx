@@ -1,6 +1,6 @@
 <template>
 	<view class="u-index-anchor-wrapper" :id="$u.guid()" :style="[wrapperStyle]">
-		<view class="u-index-anchor " :class="[active ? 'u-index-anchor--active' : '']" :style="[customAnchorStyle]">
+		<view class="u-index-anchor " :class="[active ? 'u-index-anchor--active' : '']" style="margin-bottom: 20rpx;" :style="[customAnchorStyle]">
 			<slot v-if="useSlot" />
 			<block v-else>
 				<text>{{ index }}</text>
@@ -69,7 +69,8 @@
 		font-weight: 500;
 		font-size: 28rpx;
 		line-height: 1.2;
-		background-color: rgb(245, 245, 245);
+		padding-left: 28rpx;
+		background: #ededed;
 	}
 
 	.u-index-anchor--active {

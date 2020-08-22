@@ -5,6 +5,6 @@ module.exports = {
 		uni.setStorageSync('site', site);
 	},
 	getSite(name = ''){
-		return name ? uni.getStorageSync('site')[name] || {} : uni.getStorageSync('site') || {};
+		return name ? uni.getStorageSync('site')[name] || '' : uni.getStorageSync('site') || '';
 	},
 };

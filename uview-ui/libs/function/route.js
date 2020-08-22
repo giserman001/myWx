@@ -66,7 +66,6 @@ function route(options = {}, params = false) {
 		});
 	}
 	if (config.type == 'switchTab' || config.type == 'tab') {
-		console.log(1);
 		return uni.switchTab({
 			url: config.url,
 		});

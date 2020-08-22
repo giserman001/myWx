@@ -26,7 +26,7 @@
 			</u-cell-group>
 		</view>
 		<view class="btnQuit">
-			<u-button type="error" shape="circle" :custom-style="customStyle">退出登录</u-button>
+			<u-button @click="Jump()" type="error" shape="circle" :custom-style="customStyle">退出登录</u-button>
 		</view>
 	</view>
 </template>
@@ -43,6 +43,11 @@
 			}
 		},
 		methods: {
+			Jump(){
+				this.$u.route({
+					url:"pages/partB/login/login"
+				})
+			},
 			call() {
 				uni.makePhoneCall({
 				    phoneNumber: this.tel
